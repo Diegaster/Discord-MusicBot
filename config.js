@@ -31,7 +31,7 @@ module.exports = {
 			password: "lalalava_chichichicken", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
-			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
+			secure: true, //- Can be either true or false. Only use true if ssl is enabled!
 		},
 	],
 	embedColor: "#44e007", //- Color of the embeds, hex supported
