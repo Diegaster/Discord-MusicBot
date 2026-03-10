@@ -26,9 +26,9 @@ module.exports = {
 	nodes: [
 		{
 			identifier: "Main Node", //- Used for indentifier in stats commands.
-			host: "sg1-nodelink.nyxbot.app", //- The host name or IP of the lavalink server.
-			port: 3000, // The port that lavalink is listening to. This must be a number!
-			password: "nyxbot.app/support", //- The password of the lavalink server.
+			host: "lavalink-2026-production-8641.up.railway.app", //- The host name or IP of the lavalink server.
+			port: 8080, // The port that lavalink is listening to. This must be a number!
+			password: "lalalava_chichichicken", //- The password of the lavalink server.
 			retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
 			retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
 			secure: false, //- Can be either true or false. Only use true if ssl is enabled!
